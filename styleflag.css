@@ -1,0 +1,39 @@
+ body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Ensure the body covers the entire viewport */
+        margin: 0; /* Remove default margin */
+    }
+.flag{
+   max-width: 100%;
+    
+    text-align: center;
+    
+
+}
+.top,.middle,.bottom{
+    height: 60px;
+    width: 350px;
+}
+.top{
+    background-color: orange;
+}
+.middle{
+background-color: white;
+display: flex;
+justify-content: center;
+
+}
+.bottom
+{
+    background-color: green;
+}
+.img {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+
+
+
